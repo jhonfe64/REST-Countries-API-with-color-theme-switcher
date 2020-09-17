@@ -1,0 +1,7 @@
+<%- include("layouts/header", {title: 'countries'}) %>
+    <% if(all_countries){ %>
+        <% for(i of all_countries) { %>
+            <p><%= i.flag %></p> 
+        <% } %>    
+    <% } %>    
+<%- include("layouts/footer") %>
