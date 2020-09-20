@@ -21,6 +21,7 @@ router.get('/country/:name', (req, res)=>{
     console.log(name);
     get_one_country(`https://restcountries.eu/rest/v2/name/${name}`)
     .then((one_country)=>{
+        console.log(one_country);
         res.render('./show_country/country', {one_country: one_country[0]});
     })
 });
