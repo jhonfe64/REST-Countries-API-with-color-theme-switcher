@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
 const ejs = require('ejs');
+const bodyParser = require('body-parser');
 
 
 
@@ -12,11 +13,12 @@ app.use(express.json());
 app.set("view engine", "ejs");
 //carpeta views
 app.set('views', path.join(__dirname, 'views'));
+
 //carpeta public
 app.use(express.static(path.join(__dirname, 'public')));
 //
 require('./lib/home_countries');
-
+app.use(bodyParser.json());
 
 //Rutas 
 

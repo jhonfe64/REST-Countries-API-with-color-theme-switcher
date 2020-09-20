@@ -1,7 +1,43 @@
 <%- include("layouts/header", {title: 'countries'}) %>
+<%- include("partials/mainHeader") %>
+<%- include("partials/menu") %>
     <% if(all_countries){ %>
-        <% for(i of all_countries) { %>
-            <p><%= i.flag %></p> 
-        <% } %>    
+        <div class="all_counties">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-12 d-flex flex-wrap justify-content-between">
+                        <% for (i of all_countries) { %>
+                        <div class="card country_card mb-5 border-0 shadow-sm pb-3">
+                            <a href="/country/<%= i.name %>" target="_blank">
+                                <div class="img_container" class="img_container">
+                                    <img src="<%= i.flag %>" class="card-img-top" class="flag_image" alt="..." >
+                                </div>
+                                <div class="card-body">
+    
+                                  <h5 class="card-title"><%= i.name %></h5>
+                                  <div class="d-flex align-items-center mb-2">
+                                    <h6 class="inline m-0 mr-2">Population: </h6>
+                                    <p class="m-0"><%= i.population %></p>
+                                  </div>
+    
+                                  <div class="d-flex align-items-center mb-2">
+                                    <h6 class="inline m-0 mr-2">Region:</h6>
+                                    <p class="m-0"><%= i.region %></p>
+                                  </div>
+    
+                                  <div class="d-flex align-items-center">
+                                    <h6 class="inline m-0 mr-2">Capital:</h6>
+                                    <p class="m-0"><%= i.capital %></p>
+                                  </div>                          
+                                </div>
+                            </a>
+                        </div>
+                        <% } %>   
+                    </div>
+                </div>
+            </div>
+        </div>
     <% } %>    
 <%- include("layouts/footer") %>
+
+
