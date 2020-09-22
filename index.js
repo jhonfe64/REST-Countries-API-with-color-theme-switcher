@@ -3,8 +3,6 @@ const path = require('path');
 const ejs = require('ejs');
 const bodyParser = require('body-parser');
 
-
-
 //Inicializations
 const app = express();
 app.set('port', process.env.PORT || 4000);
