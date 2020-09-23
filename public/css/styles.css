@@ -6,10 +6,18 @@ body#fff{
     background-color: #fafafa;
 }
 
-.top_header h1 {
-    font-size: 1.4rem;
-    margin: 0;
+header {
+    background-color: #ffffff;
+}
+
+header button {
+    background-color: transparent;
+}
+
+.top_header h1 a{
+    font-size: 1.2rem;
     font-weight: 700;
+    color: black;
 }
 
 .top_header h5 {
@@ -68,6 +76,96 @@ nav .searching_input {
     color: black;
 }
 
+/* ////////////////////////// */
+
+.dark_background{
+    background-color: #202d36 !important;
+}
+
+.dark_background .top_header_nav{
+    background-color: #2b3743 !important;
+}
+
+.dark_background .top_header_nav a{
+    color: #ffffff;
+}
+
+.dark_background .top_header_nav button{
+    color: #ffffff;
+}
+
+.dark_background .searching_form {
+    background-color: #2b3743 !important;
+} 
+
+.dark_background .searching_input {
+    background-color: #2b3743 !important;
+}
+
+.dark_background .searching_form button{
+    color: #ffffff !important;
+}
+
+.dark_background .dropdawnRegion {
+    background-color: #2b3743 !important;
+    color: #ffffff !important;
+}
+
+.dark_background .dropdownOptions {
+    background-color: #2b3743 !important;
+}
+
+.dark_background .dropdownOptions a {
+    color: #ffffff !important;
+}
+
+.dark_background .dropdownOptions a:hover {
+    background-color: #25303a !important;
+}
+
+.dark_background .country_card {
+    background-color: #2b3743 !important;
+}
+
+.dark_background .country_card_results{
+    color: #ffffff !important;
+}
+
+.dark_background .back_button {
+    color: #ffffff !important;
+    background-color: #2b3743 !important;
+}
+
+.dark_background .country_info_container {
+    color: #ffffff !important;
+}
+
+
+.dark_background .related_countries {
+    color: #ffffff;
+    background-color: #2b3743 !important;
+}
+
+.dark_background .error_code {
+    color: #ffffff;
+}
+
+.dark_background .error_description {
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -91,4 +189,7 @@ nav .searching_input {
         font-size: 0.8rem;
     }
 }
+
+
+
 

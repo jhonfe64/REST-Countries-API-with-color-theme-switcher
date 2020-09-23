@@ -8,7 +8,7 @@
                     <div class="col-12 d-flex flex-wrap justify-content-between">
                         <% for (i of all_countries) { %>
                         <div class="card country_card mb-5 border-0 shadow-sm pb-3">
-                            <a href="/country/<%= i.name %>" target="_blank">
+                            <a class="country_card_results" href="/country/<%= i.name %>" target="_blank">
                                 <div class="img_container" class="img_container">
                                     <img src="<%= i.flag %>" class="card-img-top" class="flag_image" alt="..." >
                                 </div>
