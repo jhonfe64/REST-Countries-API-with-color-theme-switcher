@@ -3,8 +3,6 @@ const router = express.Router();
 const {get_country} = require('../lib/home_countries');
 
 
-
-
 //===> get all ountries
 router.get('/', (req, res)=>{
     get_country("https://restcountries.eu/rest/v2/all")
