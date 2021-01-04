@@ -19,3 +19,14 @@ This web application gets information from rest countries api, shows all countri
 - git clone https://github.com/https://github.com/jhonfe64/REST-Countries-API-with-color-theme-switcher.git
 - npm i (to install all dependences) 
 - nodemon index to run the server (in src folder) 
+
+![](https://github.com/jhonfe64/REST-Countries-API-with-color-theme-switcher/blob/master/where1.png?raw=true)
+
+
+![](https://github.com/jhonfe64/REST-Countries-API-with-color-theme-switcher/blob/master/where2.png?raw=true)
+
+
+![](https://github.com/jhonfe64/REST-Countries-API-with-color-theme-switcher/blob/master/where3.png?raw=true)
+
+
+![](https://github.com/jhonfe64/REST-Countries-API-with-color-theme-switcher/blob/master/where4.png?raw=true)
