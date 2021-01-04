@@ -14,7 +14,7 @@ This web application gets information from rest countries api, shows all countri
 
 ### To clone the repository and run the project, please follow this instructions:
 
-####Type on vsc console:
+#### Type on vsc console:
 
 - git clone https://github.com/https://github.com/jhonfe64/REST-Countries-API-with-color-theme-switcher.git
 - npm i (to install all dependences) 
