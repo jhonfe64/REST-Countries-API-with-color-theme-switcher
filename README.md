@@ -8,8 +8,10 @@ This web application gets information from rest countries api, shows all countri
 
 1. node.js
 2. express.js
-4. Bootstrap4
-5. Java Script
+3. Html5
+4. Css3
+5. Bootstrap4
+6. Java Script
 
 
 ### To clone the repository and run the project, please follow this instructions:
