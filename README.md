@@ -14,6 +14,8 @@ This web application gets information from rest countries api, shows all countri
 
 ### To clone the repository and run the project, please follow this instructions:
 
-- Clone the repository https://github.com/https://github.com/jhonfe64/REST-Countries-API-with-color-theme-switcher.git
-- Use npm i to install all dependences 
-- Use nodemon index to run the server (in src folder) 
+####Type on vsc console:
+
+- git clone https://github.com/https://github.com/jhonfe64/REST-Countries-API-with-color-theme-switcher.git
+- npm i (to install all dependences) 
+- nodemon index to run the server (in src folder) 
